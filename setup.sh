@@ -1,9 +1,11 @@
 #!/bin/bash
 
-# Gitconfig & Zshrc
-ln -sf $HOME/dotfiles/.zshrc $HOME/.zshrc
-ln -sf $HOME/dotfiles/.gitconfig $HOME/.gitconfig
-ln -sh $HOME/dotfiles/.gitignore $HOME/.gitignore
+# Zsh
+ln -sf $HOME/dotfiles/zsh/.zshrc $HOME/.zshrc
+
+# Git
+ln -sf $HOME/dotfiles/git/.gitconfig $HOME/.gitconfig
+ln -sf $HOME/dotfiles/git/.gitignore $HOME/.gitignore
 
 # Fonts
 if [ -d "$HOME/Library/Fonts" ]; then

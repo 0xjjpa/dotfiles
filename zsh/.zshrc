@@ -23,6 +23,7 @@ source $ZSH/oh-my-zsh.sh
 
 ########## Third party
 source $HOME/.company
+source $HOME/.user
 
 # NVM
 export NVM_DIR="/Users/$DEFAULT_USER/.nvm"

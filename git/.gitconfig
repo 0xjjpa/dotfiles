@@ -1,6 +1,7 @@
 [user]
   name = Jose Aguinaga
   email = jj.perez.aguinaga@gmail.com
+	signingkey = 1E07CFB890510DED
 
 [alias]
   st = status
@@ -10,3 +11,7 @@
   fe = fetch
   ui = update-index
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %f %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+[core]
+	excludesfile = /Users/dariustwin/.gitignore
+[commit]
+	gpgsign = true
